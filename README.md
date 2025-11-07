@@ -66,17 +66,7 @@ It helps in building a model that predicts whether an individual is at high risk
 
 ---
 
-## 📊 Results Summary
-
-| Metric | Value |
-|--------|--------|
-| **Accuracy** | *ADD YOUR VALUE HERE (e.g., 0.86)* |
-| **Precision** | *ADD VALUE HERE* |
-| **Recall** | *ADD VALUE HERE* |
-| **F1-score** | *ADD VALUE HERE* |
-
 ### 🔍 Key Insights
-- *Add your findings here* — for example:
   - High cholesterol and smoking are major contributors to heart attacks.
   - Regular exercise and healthy BMI lower heart disease risk.
   - Age and gender play significant roles in predicting outcomes.
@@ -111,7 +101,56 @@ It helps in building a model that predicts whether an individual is at high risk
 
 ## 🧠 How to Run the Project
 
-### 1️⃣ Clone the Repository
-```bash
-git clone https://github.com/YOUR_USERNAME/Heart-Attack-China-Logistic-Regression.git
-cd Heart-Attack-China-Logistic-Regression
+1️. **Clone the Repository**
+
+    ```bash
+    git clone https://github.com/YOUR_USERNAME/Heart-Attack-China-Logistic-Regression.git
+    cd Heart-Attack-China-Logistic-Regression
+    ```
+    
+2. **Install Dependencies**
+   
+   ```bash
+   pip install pandas numpy matplotlib seaborn scikit-learn
+   ```
+
+3. **Run the Notebook**
+   
+   ```bash
+   jupyter notebook "Heart-Attack-China Uisng Logistic Regression (1).ipynb"
+   ```
+
+4. **Provide Dataset**
+   
+   ```bash
+   Place your dataset file `heart_attack_china.csv` in the same directory as the notebook.
+   ```
+---
+
+## 🧾 File Structure
+
+```
+📦 Heart-Attack-China-Logistic-Regression
+ ┣ 📜 Heart-Attack-China Uisng Logistic Regression (1).ipynb
+ ┣ 📜 heart_attack_china.csv (not included in github)
+ ┗ 📜 README.md
+
+```
+
+## 👨‍💻 Author
+
+**Vivek Salokhe**  
+💼 Machine Learning Enthusiast | 💡 Data Science Learner  
+📧 viveksalokhe1999@gmail.com
+
+---
+
+## ⭐ Acknowledgements
+
+- [Scikit-learn Documentation](https://scikit-learn.org/stable/)
+- [Pandas Documentation](https://pandas.pydata.org/)
+- Dataset inspired by public heart disease datasets (e.g., Kaggle) [Link](https://www.kaggle.com/datasets/ankushpanday2/heart-attack-risk-dataset-of-china)
+
+---
+
+> 🩺 *“Prevention is better than cure — data-driven insights make prevention possible.”*
